@@ -1,15 +1,28 @@
-# INeed Inc Marketplace
+# Netflix Clone
 
-> Early marketplace landing app from 2019.
-
-Next.js 9 marketplace with styled-components and custom Node.js server.
+Modern Netflix-style streaming UI rebuilt with **React**, **TypeScript**, **Vite**, **Tailwind CSS v4**, and **shadcn-inspired** components.
 
 ## Stack
 
-- Next.js 9
-- React
-- styled-components
+- React 19 + TypeScript
+- Tailwind CSS v4
+- class-variance-authority + lucide-react
+- Docker multi-stage build (nginx)
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Docker
+
+```bash
+docker build -t netflix-clone .
+docker run -p 8080:80 netflix-clone
+```
 
 ## Author
 
-**Jonathas Ribeiro** â€” [GitHub](https://github.com/jonathasribeiro)
+**Jonathas Ribeiro** — Senior Fullstack Engineer
